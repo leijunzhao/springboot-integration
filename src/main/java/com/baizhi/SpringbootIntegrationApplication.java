@@ -7,18 +7,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @SpringBootApplication
 @MapperScan("com.baizhi.mapper")
 public class SpringbootIntegrationApplication {
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
+  
     public static void main(String[] args) {
         SpringApplication.run(SpringbootIntegrationApplication.class, args);
     }
