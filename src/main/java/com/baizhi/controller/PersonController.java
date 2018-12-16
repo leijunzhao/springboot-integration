@@ -15,6 +15,7 @@ public class PersonController {
     PersonService personService;
     @RequestMapping("selectAllPerson")
     public List<Person> selectAllPerson(){
+        //查所有人的集合
         List<Person> personList = personService.queryAllPerson();
         return personList;
     }
